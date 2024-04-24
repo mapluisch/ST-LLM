@@ -1,3 +1,15 @@
+<h1 align=center>ST-LLM Colab Notebook</h1>
+
+- Contains fixes for Colab notebooks, i.e.:
+  - removed +cuda118 and changed huggingface version in requirements.txt
+  - fixed config paths to .pth and model checkpoints path for Colab instances
+ 
+Be sure to use a L4 instance.
+ 
+<hr>
+Original README:
+<hr>
+
 <p align="center" width="100%">
 <a target="_blank"><img src="example/material/stllm_logo.png" alt="ST-LLM" style="width: 50%; min-width: 150px; display: block; margin: auto;"></a>
 </p>
