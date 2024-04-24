@@ -8,6 +8,7 @@
 
 - Contains fixes for Colab notebooks, i.e.:
   - removed +cuda118 and changed huggingface version in requirements.txt
+  - added xformers to requirements.txt
   - fixed config paths to .pth and model checkpoints path for Colab instances
  
 Be sure to use a L4 instance.
