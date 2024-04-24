@@ -55,3 +55,4 @@ imageio==2.33.1
 av==11.0.0
 transformers[deepspeed]
 mmengine
+xformers
