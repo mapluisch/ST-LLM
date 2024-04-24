@@ -1,5 +1,11 @@
 <h1 align=center>ST-LLM Colab Notebook</h1>
 
+<p align="center">
+  <a href="https://colab.research.google.com/github/mapluisch/ST-LLM-Colab/blob/main/ST_LLM_Colab.ipynb">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" style="height: 40px; width: auto;"/>
+  </a>
+</p>
+
 - Contains fixes for Colab notebooks, i.e.:
   - removed +cuda118 and changed huggingface version in requirements.txt
   - fixed config paths to .pth and model checkpoints path for Colab instances
