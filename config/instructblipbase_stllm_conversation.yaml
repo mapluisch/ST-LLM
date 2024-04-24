@@ -6,9 +6,9 @@ model:
   end_sym: "###"
   #prompt_path: "prompts/alignment.txt"
   prompt_template: '###Human: {} ###Assistant: '
-  llama_model: '/path/to/vicuna-7b-v1.1'
-  ckpt: '/Path/to/instruct_blip_vicuna7b_trimmed.pth'
-  q_former_model: '/Path/to/instruct_blip_vicuna7b_trimmed.pth'
+  llama_model: '/content/ST-LLM/ST_Weights/conversation_weight'
+  ckpt: '/content/ST-LLM/blip2_pretrained_flant5xxl.pth'
+  q_former_model: '/content/ST-LLM/blip2_pretrained_flant5xxl.pth'
   qformer_text_input: True
   freeze_LLM: False
   video_input: "residual"
